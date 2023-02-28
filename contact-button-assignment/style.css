@@ -1,0 +1,28 @@
+body {
+    background-color:#EED7C5;
+}
+
+button {
+    background-color:#C97C5D;
+    color:#EED7C5;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    width: 200px
+    padding:10px;
+    margin:50px 0px 0px 0px;
+    border:none;
+    border-radius:10px;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+    color:#EED7C5;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+}

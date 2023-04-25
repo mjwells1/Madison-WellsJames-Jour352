@@ -1,0 +1,26 @@
+@media {
+    
+    .lead{
+        width:100;
+    }
+    
+    .topper{
+        background-image:url(Screen%20Shot%202023-04-25%20at%2012.22.30%20PM.png);        
+    }
+        
+    h1 {
+        padding: 5px,5px,5px,5px;        
+    }
+}
+
+@media (min-width: 576px)
+        {   
+}
+
+@media (min-width: 992px)
+        {   
+}
+
+@media (min-width: 1200px)
+        {   
+}

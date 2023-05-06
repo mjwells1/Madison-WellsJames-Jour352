@@ -5,7 +5,9 @@
     }
     
     .topper{
-        background-image:url(Screen%20Shot%202023-04-25%20at%2012.22.30%20PM.png);        
+        background-image:url(Screen%20Shot%202023-04-25%20at%2012.22.30%20PM.png);
+        background-size:cover;
+        
     }
         
     h1 {

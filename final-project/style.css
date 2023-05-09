@@ -16,65 +16,66 @@
     }
     
     .body{
-        width:80%;
+        width:100%;
     }
     
     .topcaption{
         color:#bdbbb0;
-        font-family: Georgia serif;
+        font-family:Georgia serif;
         font-size:80%;
         margin:0% 0% 2% 0%;
     }
     
     .inlinesubhead{
         width:100%;
+        color:#9ed8db;
     }
     
     .date{
         width:100%;
-        font-family: Georgia serif;
+        font-family:Georgia serif;
         font-size:80%
     }
     
     .inlineimage{
-        width: 100%;
+        width:100%;
     }
     
     .rightimage{
-        width: 50%;
-        float: right;
+        width:50%;
+        float:right;
     }
     
     .quizlink{
-        text-align: center;
-        font-size: 170%;
-        font-family: Georgia serif;
-        color: black;
+        text-align:center;
+        font-size:170%;
+        font-family:Georgia serif;
+        color:black;
         margin:5%;
     }
     
     .quizlink a{
-        color:white;
+        color:#9ed8db;
         
     }
        
     .caption{
         color:#bdbbb0;
-        font-family: Georgia serif;
+        font-family:Georgia serif;
         font-size:80%;
         margin:0% 0% 2% 0%;
     }
     
     .rightcaption{
         color:#bdbbb0;
-        font-family: Georgia serif;
+        font-family:Georgia serif;
         font-size:80%;
         float:right;
         margin: 0% 0% 2% 0%;
         
     }
     h1 {
-        padding: 5px 5px 5px 5px; 
+        padding:5px 5px 5px 5px; 
         color: black;
         font-family: 'Merriweather', serif;
         margin:50% 0% 0% 0%;
@@ -82,32 +83,60 @@
     }
     
     h6 {
-        font-family: Georgia serif;
+        font-family:Georgia serif;
         color: black
         padding:2% 0% 0% 0%
     }
     
     p {
-        padding: 5px, 5px, 5px, 5px;
-        font-family: Georgia serif;
+        padding:5px, 5px, 5px, 5px;
+        font-family:Georgia serif;
         color:white;
     }
     
+    .pullquote{
+        float:left;
+        border-top:2px solid white;
+        padding:10px 10px 10px 10px;
+        font-family: 'Merriweather', serif;
+    }
+    
+    .quote{
+        color:#9ed8db;
+        font-size:200%;
+    }
+    
+    .attribution{
+        color:#bdbbb0;
+    }
+    
     #footer{
-        color:white;
+        color:#9ed8db;
         font-family:Georgia serif;
         margin:0% 0% 2% 0%;
     }
 }
 
 @media (min-width: 576px)
-        {   
+        { 
+        
+    .body{
+        width:100%;
+    }
+            
 }
 
 @media (min-width: 992px)
-        {   
+        { 
+     .body{
+        width:80%;
+    }
+        
 }
 
 @media (min-width: 1200px)
-        {   
+        { 
+      .body{
+        width:50%;
+    }
 }

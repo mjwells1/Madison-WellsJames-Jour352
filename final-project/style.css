@@ -7,29 +7,84 @@
     .topper{
         background-image:url(Person%20writing.png);
         background-size:cover;
+        background-position: center;
         
     }
     
     body{
         background-color:#284b63;
     }
-        
-    h1 {
-        padding: 5px,5px,5px,5px; 
-        color: white;
-        font-family: Georgia serif;
+    
+    .body{
+        width:80%;
     }
     
-    h3 {
-        padding: 5px, 5px, 5px, 5px;
+    .topcaption{
+        color:#bdbbb0;
         font-family: Georgia serif;
+        font-size:80%;
+        margin:0% 0% 2% 0%;
+    }
+    
+    .inlinesubhead{
+        width:100%;
+    }
+    
+    .date{
+        width:100%;
+        font-family: Georgia serif;
+        font-size:80%
+    }
+    
+    .inlineimage{
+        width: 100%;
+    }
+    
+    .rightimage{
+        width: 50%;
+        float: right;
+    }
+    
+    .quizlink{
+        text-align: center;
+        font-size: 170%;
+        font-family: Georgia serif;
+        color: black;
+        margin:5%;
+    }
+    
+    .quizlink a{
         color:white;
+        
+    }
+       
+    .caption{
+        color:#bdbbb0;
+        font-family: Georgia serif;
+        font-size:80%;
+        margin:0% 0% 2% 0%;
     }
     
-    h5 {
-        padding: 5px, 5px, 5px, 5px;
+    .rightcaption{
+        color:#bdbbb0;
         font-family: Georgia serif;
-        color: #bdbbb0;
+        font-size:80%;
+        float:right;
+        margin: 0% 0% 2% 0%;
+        
+    }
+    h1 {
+        padding: 5px 5px 5px 5px; 
+        color: black;
+        font-family: 'Merriweather', serif;
+        margin:50% 0% 0% 0%;
+        font-size:500%;
+    }
+    
+    h6 {
+        font-family: Georgia serif;
+        color: black
+        padding:2% 0% 0% 0%
     }
     
     p {
@@ -41,6 +96,7 @@
     #footer{
         color:white;
         font-family:Georgia serif;
+        margin:0% 0% 2% 0%;
     }
 }
 

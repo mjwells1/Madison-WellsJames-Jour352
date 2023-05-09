@@ -62,14 +62,14 @@
     .caption{
         color:#bdbbb0;
         font-family:Georgia serif;
-        font-size:80%;
+        font-size:100%;
         margin:0% 0% 2% 0%;
     }
     
     .rightcaption{
         color:#bdbbb0;
         font-family:Georgia serif;
-        font-size:80%;
+        font-size:100%;
         float:right;
         margin: 0% 0% 2% 0%;
         
@@ -97,8 +97,13 @@
     .pullquote{
         float:left;
         border-top:2px solid white;
-        padding:10px 10px 10px 10px;
+        padding:5px 5px 5px 5px;
         font-family: 'Merriweather', serif;
+    }
+    
+    .T{
+        font-size:60px;
+        color:white;
     }
     
     .quote{
@@ -110,7 +115,7 @@
         color:#bdbbb0;
     }
     
-    #footer{
+    .footer{
         color:#9ed8db;
         font-family:Georgia serif;
         margin:0% 0% 2% 0%;
@@ -123,15 +128,15 @@
     .body{
         width:100%;
     }
-            
-}
+     
+     }
 
 @media (min-width: 992px)
         { 
      .body{
         width:80%;
     }
-        
+           
 }
 
 @media (min-width: 1200px)
